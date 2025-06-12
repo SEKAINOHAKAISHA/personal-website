@@ -213,11 +213,12 @@ span{
 
 .courses-item h3{
     flex: 1 1 30rem;
-    background: var(--main-color);
+    background: var(--snd-bg-color);
     padding: 2rem 2rem 2rem;
     border-radius: 2rem;
     text-align: center;
     transition: 0.3s ease;
+    box-shadow: 0 0 5px var(--main-color);
 }
 
 .courses-item h3:hover{
