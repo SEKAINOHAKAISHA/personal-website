@@ -199,8 +199,30 @@ span{
     background-color: var(--snd-bg-color);
 }
 
-.courses-item{
+.course-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px (--main-color);
+}
+
+
+.course-section-heading{
+    display: inline-flex;
+    padding: 2rem 4.6rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.9rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
     margin-top: 2rem;
+}
+
+.courses-item{
     display: flex;
     justify-content: center;
     align-items: center;
