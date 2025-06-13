@@ -220,6 +220,7 @@ span{
     font-weight: 600;
     transition: 0.3s ease;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .courses-item{
@@ -386,7 +387,7 @@ span{
 
 .contact form .input-box{
     display:flex;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -462,6 +463,15 @@ span{
 {
     html{
         font-size: 55%;
+    }
+    .courses-item{
+        padding: 1.2rem 0.6rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .typical{
+        max-width: 100%;
     }
 }
 
@@ -583,6 +593,15 @@ span{
     .projects h2{
         margin-bottom: 3rem;
     }
+    .courses-item{
+        padding: 1.2rem 0.6rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .typical{
+        max-width: 50%;
+    }
 }
 
 @media (max-width: 617px)
@@ -599,12 +618,12 @@ span{
 
     .courses-item{
         padding: 1.2rem 0.6rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 300;
     }
 
     .typical{
-        max-width: 100%;
+        max-width: 50%;
     }
 }
 
