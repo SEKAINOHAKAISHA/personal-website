@@ -204,12 +204,12 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px (--main-color);
 }
 
 
 .course-section-heading{
     display: inline-flex;
+    
     padding: 2rem 4.6rem;
     background: var(--main-color);
     border-radius: 4rem;
@@ -251,7 +251,7 @@ span{
 }
 
 .typical{
-    max-width: 33%;
+    max-width: 25vw;
 }
 
 /* projects Section Code */
@@ -276,6 +276,7 @@ span{
     text-align: center;
     border: 0.3rem solid var(--bg-color);
     transition: 0.3s ease;
+    max-height: 80vh;
 }
 
 .projects-container .projects-box:hover{
@@ -294,7 +295,9 @@ span{
 }
 
 .projects-box p{
-    font-size: 1.6rem;
+    text-align: justify;
+    text-align-last: left;
+    font-size: 1.5rem;
     margin: 1rem 0 3rem;
     line-height: 2rem;
 }
@@ -459,6 +462,10 @@ span{
     color: var(--text-color);
 }
 
+
+/* Responsive Design Code */
+
+
 @media (max-width: 1200px)
 {
     html{
@@ -498,15 +505,7 @@ span{
     }
 
     .footer{
-        padding: 2 rem 3%;
-    }
-}
-
-/* Responsive Design Code */
-
-@media (max-width: 1200px){
-    html{
-        font-size: 55%;
+        padding: 2rem 3%;
     }
 }
 
